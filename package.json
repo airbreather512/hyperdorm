@@ -1,23 +1,24 @@
 {
   "name": "hyperdorm",
   "version": "1.0.0",
-  "description": "",
+  "description": "a js ui system where everything is a node tree",
   "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "core",
+    "things"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no tests yet\"",
+    "build": "echo \"nothing to build yet\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/airbreather512/hyperdorm.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/airbreather512/hyperdorm/issues"
-  },
-  "homepage": "https://github.com/airbreather512/hyperdorm#readme",
-  "devDependencies": {
-    "vite": "^8.0.8"
-  }
+  "license": "MIT"
 }
